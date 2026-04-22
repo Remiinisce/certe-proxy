@@ -4,7 +4,7 @@
 
 export default async function handler(req, res) {
   // Allow the app to call us from any origin (we'll tighten before public launch).
-  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Origin', 'https://cert-e.vercel.app');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
